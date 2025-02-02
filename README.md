@@ -11,8 +11,8 @@ The preprocessing was performed using a Jupyter Notebook:
 preprocessing.ipynb
 
 ### Steps:
-1. **Extracted Articles**: The raw text was split into individual articles.
-2. **Removed Authors**: Author names were removed from the article text.
+1. **Extracted essays**: The raw text was split into individual essays.
+2. **Removed Authors**: Author names were removed from the essays text.
 3. **Formatted Data**: The cleaned data was structured and saved in CSV format.
 
 The final dataset is stored in:
@@ -20,9 +20,9 @@ clean_data.csv
 
 ## Data Structure
 The `clean_data.csv` file contains the following columns:
-- **ArticleNo** – The article number.
-- **Author** – The author of the article (disputed authors are marked as `"Unknown"`).
-- **Article** – The full text of the article.
+- **EssayNo** – The essay number.
+- **Author** – The author of the essay (disputed authors are marked as `"Unknown"`).
+- **Essay** – The full text of the essay.
 
 ## Model Training
 The essays were vectorized using the CountVectorizer then 
